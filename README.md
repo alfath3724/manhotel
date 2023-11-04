@@ -13,5 +13,12 @@
 - php artisan migrate
 - php artisan db:seed
 - npm install
-- npm npm run dev
+- npm run dev
 - composer dump-autoload
+
+Admin : admin@gmail.com
+Staff Kebersihan : haris@gmail.com
+Staff Reservasi : indah@gmail.com
+pass : admin123
+
+

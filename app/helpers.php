@@ -48,3 +48,19 @@ function user_rolename(){
         return '-';
     }
 }
+
+function render_badge($status){
+    switch ($status){
+        case 'kosong':
+             echo 'success';
+            break;
+        case 'diperbaiki':
+            echo 'warning';
+            break;
+        case 'dipesan':
+            echo 'danger';
+            break;
+        default:
+            echo 'secondary';
+    }
+}

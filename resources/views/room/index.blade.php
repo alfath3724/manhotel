@@ -36,7 +36,9 @@
                 <td>{{ $i++ }}</td>
                 <td>{{ $d->nomorkamar }}</td>
                 <td>{{ ucwords($d->tipekamar) }}</td>
-                <td>{{ ucwords($d->status) }}</td>
+                <td>
+                    <span class="badge bg-{{ render_badge($d->status) }}">{{ ucwords($d->status) }}</span>
+                </td>
                 <td>
                     @if(isAdmin())
                     <a href="{{ route('room-edit', $d->id) }}" class="btn btn-sm btn-secondary">Edit</a>
