@@ -7,20 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Jalankan Perintah
+### Jalankan Perintah
 
 - Buat database hotelindev
 - composer install
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
-- npm install
-- npm run dev
-- composer dump-autoload
+- npm install (optional)
+- npm run dev (optional)
+- composer dump-autoload (optional)
 
-Admin : admin@gmail.com
-Staff Kebersihan : haris@gmail.com
-Staff Reservasi : indah@gmail.com
-pass : admin123
+### Akun Login
+- Admin : robby@gmail.com
+- Staff Kebersihan : ratna@gmail.com
+- Staff Reservasi : alex@gmail.com
+- pass : admin123
 
 
