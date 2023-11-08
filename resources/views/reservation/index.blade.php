@@ -38,7 +38,7 @@
                 <td>{{ $i++ }}</td>
                 <td>{{ $d->kamar->nomorkamar }}</td>
                 <td>{{ $d->nmpenyewa }}</td>
-                <td>{{ $d->jenisidentitas }} - {{ $d->noidentitas }}</td>
+                <td>{{ strtoupper($d->jenisidentitas) }} - {{ $d->noidentitas }}</td>
                 <td>{{ $d->petugas->name }}</td>
                 <td>{{ date('d M Y H:i', strtotime($d->checkin)) }}</td>
                 <td> @if($d->checkout) {{ date('d M Y H:i', strtotime($d->checkout)) }} @else - @endif</td>

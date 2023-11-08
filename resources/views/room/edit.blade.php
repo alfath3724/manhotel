@@ -17,7 +17,7 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label>Nomor Kamar</label>
-                        <input type="number" name="nomorkamar" value="{{ old('nomorkamar', $data->nomorkamar) }}" class="form-control @error('nomorkamar') is-invalid @enderror" readonly>
+                        <input name="nomorkamar" value="{{ old('nomorkamar', $data->nomorkamar) }}" class="form-control @error('nomorkamar') is-invalid @enderror" readonly>
                     </div>
                     <div class="mb-3">
                         <label>Tipe Kamar</label>

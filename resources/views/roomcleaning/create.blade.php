@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label>Nomor Kamar</label>
-                        <select name="idkamar" class="form-select">
+                        <select name="idkamar" class="form-select @error('idkamar') is-invalid @enderror">
                             @foreach($kamar as $k)
                                 <option value="{{ $k->id }}">{{ $k->nomorkamar }} - {{ ucwords($k->tipekamar) }}</option>
                             @endforeach
