@@ -11,6 +11,7 @@
 
 - Buat database hotelindev
 - composer install
+- copy .env.example jadi .env
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
