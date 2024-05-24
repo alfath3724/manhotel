@@ -10,8 +10,8 @@
 ### Jalankan Perintah
 
 - Buat database hotelindev
-- composer install
 - copy .env.example jadi .env
+- composer install
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
